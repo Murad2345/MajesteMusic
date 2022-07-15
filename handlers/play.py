@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📚 Channel", url=f"https://t.me/MajesteBotlar"),
-                InlineKeyboardButton("📝 Support", url=f"https://t.me/Majesteler"),
+                InlineKeyboardButton("📚 Dəsdək", url=f"https://t.me/creativtemaa"),
+                InlineKeyboardButton("❤️‍🔥 Köməkçi sahip", url=f"https://t.me/bashirliabinjz"),
             ],[
                 InlineKeyboardButton("✨ Kapat", callback_data="cls"),
             ],
@@ -229,10 +229,10 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit("🤔 **Dinlemek istediğin şarkı nedir?**")
-        await lel.edit("🔎 **Lütfen bekleyiniz...**")
+        await lel.edit("🔎 **Zəhmət olmasa gözləyin...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🔄 **Ses İşleniyor..🔥**")
+        await lel.edit("🔄 **səsə qatılıram..🔥**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -255,7 +255,7 @@ async def play(_, message: Message):
                 
         except Exception as e:
             await lel.edit(
-                "❌ Şarkı bulunamadı.\n\nBaşka bir şarkı deneyin veya belki düzgün heceleyin."
+                "❌ Mahnı Tapılmadı.\n\nBaşqa bir mahnı yoxlayın vəya mahnı adını düzgün yazın."
             )
             print(str(e))
             return
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📚 Channel", url=f"https://t.me/MajesteBotlar"),
-                InlineKeyboardButton("📝 Support", url=f"https://t.me/Majesteler"),
+                InlineKeyboardButton("🇦🇿 Sahib", url=f"https://t.me/qocayeffdi"),
+                InlineKeyboardButton("🐊 adminastor", url=f"https://t.me/bashirliabinjz"),
             ],[
                 InlineKeyboardButton("✨ Kapat", callback_data="cls"),
             ],
