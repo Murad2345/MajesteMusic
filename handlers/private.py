@@ -14,23 +14,23 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ 🎉", url=f"https://t.me/MajesteMusicProBot?startgroup=true"
+                        "👨‍💻 Developer", url="https://t.me/qocayeffdi"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 ᴀsɪsᴛᴀɴ", url="https://t.me/MajesteMusicAsistan"
+                        "❤️‍🔥 Söhbət Dəsdək", url="https://t.me/creativtemaa"
                     ),
                     InlineKeyboardButton(
-                        "📝 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/MajesteSahip"
+                        "⚡️ Kanalım", url="https://t.me/QocayefBlog"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📚 ᴋᴏᴍᴜᴛʟᴀʀ" , callback_data= "cbbilgi"
+                        "🐊 Komandalar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 ᴋᴀɴᴀʟ", url=f"https://t.me/MajesteBotlar"
+                        "Qrupa Əlavə et", url=f"https://t.me/creativmusicbot?startgroup=true"
                     )
                 ]
                 
@@ -42,18 +42,18 @@ async def start(_, message: Message):
 
 @Client.on_message(command(["bilgi", f"bilgi@{BOT_USERNAME}"]))
 async def bilgi(_, message: Message):
-      await message.reply_text("● **ɴᴏᴛ :\n\n ʙᴏᴛᴜɴ ᴀᴋᴛɪғ ᴄ̧ᴀʟɪşᴍᴀsɪ ɪᴄ̧ɪɴ sᴜ ᴜᴄ ʏᴇᴛᴋɪʏᴇ ɪʜᴛɪʏᴀᴄɪ ᴠᴀʀᴅɪʀ :\n\n> 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖲𝗂𝗅𝗆𝖾 ,\n> 𝖡𝖺𝗀𝗅𝖺𝗇𝗍𝗂 𝖣𝖺𝗏𝖾𝗍 𝖤𝗍𝗆𝖾 ,\n> 𝖲𝖾𝗌𝗅𝗂 𝖲𝗈𝗁𝖻𝖾𝗍 𝖸𝗈𝗇𝖾𝗍𝗆𝖾 ,**", 
+      await message.reply_text("● **önəmli :\n\n botun aktiғ işləməsi üçün bu üç ʏᴇᴛᴋɪʏᴇ ehtiyacı var :\n\n> mesajları silmə ,\n> bağlantı ilə dəvət ,\n> və səsli söhbətləri yönəltmə  ,**", 
       reply_markup=InlineKeyboardMarkup(
              [
                  [
                      InlineKeyboardButton(
-                         "📚 𝖳𝗎𝗆 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data="herkes")
+                         "✨️ Bütün Komandalar", callback_data="herkes")
                  ],[
                      InlineKeyboardButton(
-                         "🗯️ 𝖠𝗇𝖺 𝖬𝖾𝗇𝗎 ", callback_data="cbstart")
+                         "🗯️ 𝖠𝗇𝖺 menyu ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "📩 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/MajesteSahip")
+                         "🖤 Söhbət qrupum", url="https://t.me/creativtemaa")
                  ]
              ]
          )
@@ -62,12 +62,12 @@ async def bilgi(_, message: Message):
 
 @Client.on_callback_query(filters.regex("cbbilgi"))
 async def cbbilgi(_, query: CallbackQuery):
-    await query.edit_message_text("● **𝖭𝗈𝗍 :\n\n 𝖡𝗈𝗍𝗎𝗇 𝖠𝗄𝗍𝗂𝖿 𝖢𝖺𝗅𝗂𝗌𝗆𝖺𝗌𝗂 𝗂𝖼𝗂𝗇 𝖲𝗎 𝖴𝖼 𝗒𝖾𝗍𝗄𝗂𝗒𝖾 𝗂𝗁𝗍𝗂𝗒𝖺𝖼𝗂 𝖵𝖺𝗋𝖽𝗂𝗋 :\n\n> 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖲𝗂𝗅𝗆𝖾 ,\n> 𝖡𝖺𝗀𝗅𝖺𝗇𝗍𝗂 𝖣𝖺𝗏𝖾𝗍 𝖤𝗍𝗆𝖾 ,\n> 𝖲𝖾𝗌𝗅𝗂 𝖲𝗈𝗁𝖻𝖾𝗍 𝖸𝗈𝗇𝖾𝗍𝗆𝖾 ,**", 
+    await query.edit_message_text("● **𝖭𝗈𝗍 :\n\n 𝖡𝗈𝗍𝗎𝗇 𝖠𝗄𝗍𝗂𝖿 işlemesi üçün bu 𝖴𝖼 𝗒𝖾𝗍𝗄𝗂𝗒𝖾 ehtiyacı 𝖵𝖺𝗋 :\n\n> 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖲𝗂𝗅𝗆𝖾 ,\n> 𝖡𝖺𝗀𝗅𝖺𝗇𝗍𝗂 𝖣𝖺𝗏𝖾𝗍 𝖤𝗍𝗆𝖾 ,\n> 𝖲𝖾𝗌𝗅𝗂 𝖲𝗈𝗁𝖻e𝗍 𝖸𝗈𝗇𝖾𝗍𝗆𝖾 ,**", 
     reply_markup=InlineKeyboardMarkup(
       [
         [
           InlineKeyboardButton(
-            "📚 𝖳𝗎𝗆 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋", callback_data ="herkes")
+            "🐊 Bütün komandalar", callback_data ="herkes")
         ],
         [
           InlineKeyboardButton(
@@ -75,7 +75,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip")
+            "🇦🇿 Kanalım", url="https://t.me/QocayefBlog")
         ]
       ]
      ))
@@ -88,11 +88,11 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip")
+                         "📩 Sahibim", url="https://t.me/qocayeffdi")
                  ],
                  [
                      InlineKeyboardButton(
-                         "⬅️ 𝖦𝖾𝗋𝗂 ⬅️", callback_data="cbbilgi")
+                         "⬅️ Arxaya ⬅️", callback_data="cbbilgi")
                  ] 
              ]
          )
@@ -106,11 +106,11 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/MajesteSahip")
+                         "⚙ Admin", url="https://t.me/bashirliabinjz")
                  ],
                  [
                      InlineKeyboardButton(
-                         "⬅️ Geri ⬅️", callback_data="cbbilgi")
+                         "⬅️ Arxaya ⬅️", callback_data="cbbilgi")
                  ] 
              ]
          )
@@ -124,23 +124,23 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 𝐁𝐞𝐧𝐢 𝐆𝐫𝐮𝐛𝐚 𝐄𝐤𝐥𝐞 🎉", url=f"https://t.me/MajesteMusicProBot?startgroup=true"
+                        "🎉 Məni grupuna əlavə et 🎉", url=f"https://t.me/creativmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/MajesteMusicAsistan"
+                        "🇦🇿 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/CinomMusicAsisstan"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip"
+                        "✨️ Sahib", url="https://t.me/qocayeffdi"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📚 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫" , callback_data= "cbbilgi"
+                        "📚 komandalar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/MajesteBotlar"
+                        "❤️‍🔥 Grupum", url=f"https://t.me/creativtemaa"
                     )
                 ]
                 
