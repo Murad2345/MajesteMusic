@@ -1,5 +1,5 @@
 
-# Müzik Bot 🇹🇷
+# Müzik Bot 🇦🇿
 - [Müzik Bot](https://t.me/MajesteMusicProBot) Telegram Müzik Bot .
 
 # Support 
@@ -9,7 +9,7 @@
 ### ⏳ Genel Komutlar
 - `/oynat` - şarkı çalmak için youtube url'sine veya şarkı dosyasına yanıt verme
 - `/oynat` - istediğiniz şarkıyı çal
-- `/bul` - istediğiniz şarkıları hızlı bir şekilde indirin 
+- `/tap` - istediğiniz şarkıları hızlı bir şekilde indirin 
 - `/ara` - youtube'da ayrıntıları içeren videoları arama 
 - `/durdur` - şarkı çalmayı duraklatma 
 - `/devam` - şarkı çalmaya devam et 
