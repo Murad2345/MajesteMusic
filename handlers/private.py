@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👨‍💻 Developer", url="https://t.me/qocayeffdi"
+                        "👨‍💻 Developer", url="https://t.me/Rexxuxxxnx"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🐊 Komandalar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Qrupa Əlavə et", url=f"https://t.me/creativmusicbot?startgroup=true"
+                        "Qrupa Əlavə et", url=f"https://t.me/GOLDMusccbot?startgroup=true"
                     )
                 ]
                 
@@ -129,10 +129,10 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇦🇿 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/RandomAsisstan"
+                        "🇦🇿 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/GOLDAsisstan"
                     ),
                     InlineKeyboardButton(
-                        "✨️ Sahib", url="https://t.me/qocayeffdi"
+                        "✨️ Sahib", url="https://t.me/Rexxuxxxnx"
                     )
                 ],
                 [
