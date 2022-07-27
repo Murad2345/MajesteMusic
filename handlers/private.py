@@ -8,7 +8,7 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://telegra.ph/file/cf6f632eedbf5d79cc091.jpg",
+                "https://telegra.ph/file/754c4457767c0ef064ea7.jpg",
                 caption=(f"""● **ᴍᴇʀʜᴀʙᴀ** {message.from_user.mention} \n\n● **𝖡𝖾𝗇** {bot} !\n\n● **sᴇsʟɪ sᴏʜʙᴇᴛʟᴇʀᴅᴇ ᴍᴜ̈ᴢɪᴋ ᴄ̧ᴀʟᴀʙɪʟᴇɴ sᴇssɪᴢ sɪɴᴇᴍᴀ ᴏʏᴜɴᴜ ᴠᴇ ʏᴀş ᴛᴀʜᴍɪɴ ᴏʏɴᴀʏᴀʙɪʟᴇᴄᴇɢ̆ɪɴɪᴢ ʙᴏᴛᴜᴍ . . !** \n\n● **ʙᴀɴ ʏᴇᴛᴋɪsɪᴢ, sᴇs ʏᴏ̈ɴᴇᴛɪᴍ ʏᴇᴛᴋɪsɪ ᴠᴇʀɪᴘ ᴀsɪsᴛᴀɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇʏɪɴ . . !**"""),
          reply_markup=InlineKeyboardMarkup(
             [
