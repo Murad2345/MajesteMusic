@@ -109,8 +109,8 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GOLDAsisstan"
-    usar = user
+        kullanıcı    _    ad_adı     = "@luciasistan"  "
+    us    =     
     wew = usar.id
     try:
         await _.get_chat_member(chid, wew)
